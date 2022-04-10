@@ -2,4 +2,6 @@
 
 npm init -y
 npm install express
-npm instal dotenv
+npm install dotenv
+
+npm install socket.io
