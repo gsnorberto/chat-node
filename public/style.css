@@ -40,37 +40,37 @@ ul, li {
     display: flex;
 }
 
-.chatlist {
+.chatList {
     flex: 1;
     background-color: #EEEEEE;
     overflow-y: scroll;
     max-height: calc(100vh - 40px);
 }
-.chatlist li{
+.chatList li{
     padding: 3px;
     font-size: 15px;
 }
-.chatlist li.m-status{
+.chatList li.m-status{
     color: #333333;
     font-style: italic;
 }
-.chatlist li.m-txt span{
+.chatList li.m-txt span{
     font-weight: bold;
     color: #0000FF;
 }
-.chatlist li.m-txt span.me{
+.chatList li.m-txt span.me{
     font-weight: bold;
     color: #FF0000;
 }
 
 
-.userlist {
+.userList {
     width: 200px;
     background-color: #CCCCCC;
     overflow-y: scroll;
     max-height: calc(100vh - 40px);
 }
-.userlist li{
+.userList li{
     padding: 5px;
     font-size: 15px;
 }
@@ -88,4 +88,8 @@ ul, li {
     background-color: #FFFFFF;
     outline: 0;
     border: 0;
+}
+
+#chatTextInput[disabled]{
+    background-color: #EEEEEE;
 }
